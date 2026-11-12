@@ -1,25 +1,26 @@
-# Welcome to your Lovable project
+# Hotel QC & OTA Rate Parity Audit
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+Staff screens for hotel quality checks and OTA rate-parity audits. The dashboard covers hotels, competitors, test cases, check runs, and reports.
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Node.js and npm are required.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
+git clone https://github.com/product257/QC-Rate-parity-tool.git
+cd QC-Rate-parity-tool
 npm i
 npm run dev
 ```
+
+The app runs at `http://localhost:8080`.
+
+## Scripts
+
+- `npm run dev` starts the local app
+- `npm run build` creates a production build
+- `npm run test` runs the tests
+- `npm run lint` checks the code
 
 ## Built with
 
